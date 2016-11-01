@@ -6,8 +6,35 @@
     <title></title>
   </head>
   <body>
-    list of movies
-    <button type="button" name="button">  <a href="movies.html">back to movies </a></button>  
+<main class="info">
+
+  <form class="form" action="index.html" method="post">
+<h1> Add movie </h1>
+    <input class="movieTitle" lable="title" type="text" name="" value="" placeholder="title">
+
+      <input class="genre" lable="genre" type="text" name="" value="" placeholder="Genre">
+
+      <textarea class="discription" placeholder="discription"></textarea>
+      <br>
+      <input class="imgURL" type="url" name="img">
+
+
+      <br>
+      Pick a rating
+      <select label="rating" class="rating" name="">
+        <option>g</option>
+        <option>pg</option>
+        <option>pg-13</option>
+        <option>R</option>
+        <option>NC-17</option>
+        <option>NC-17</option>
+      </select>
+      <br>
+      <button class="submit" type="submit" name="button"> send movie info over </button>
+    </form>
+  </main>
+  <section class="data-back">
+  </section>
 
 
     <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>

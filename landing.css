@@ -1,0 +1,21 @@
+body{
+  background-size: cover;
+  background-image: url(http://www.makinmagazine.com/wp-content/uploads/2014/10/blue-movie-film-strip-bg.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.landing{
+ width: 50%;
+ padding: 20px;
+ resize: both;
+}
+button{
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+a{
+  color:white;
+}

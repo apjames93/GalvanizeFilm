@@ -1,3 +1,50 @@
 body{
-  
+  height: 100%;
+  width:100%;
+  padding: 0.5em;
+  display:flex;
 }
+
+.add{
+  display: flex;
+  flex-direction: row;
+}
+.movie-search{
+  border-style: double;
+  border-color: black;
+  background-color: white;
+  height: 30em;
+  width: 25em;
+  margin: 0.5em;
+  overflow: scroll;
+}
+.list{
+  border-style: double;
+  border-color: black;
+  background-color: white;
+  height: 30em;
+  width: 25em;
+  margin: 0.5em;
+  overflow: scroll;
+  }
+  .info{
+    width: 15em;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  input{
+    margin: 0.5em;
+
+  }
+  select{
+    margin: 0.5em;
+  }
+  button{
+    margin: 0.5em;
+  }
+  textarea{
+    margin: 0.5em;
+    overflow: scroll;
+  }
